@@ -9,7 +9,7 @@ namespace Exercise_4
 
         public Store(int size)
         {
-            articles = new Article[Math.Abs(size)];
+            articles = new Article[Math.Abs(size)]; //Супер!
         }
 
         public string this[int index]
@@ -58,7 +58,7 @@ namespace Exercise_4
                 {
                     if (articles[i].ProductPrice <= articles[j].ProductPrice)
                     {
-                        Article g = articles[i];
+                        Article g = articles[i]; //Отлично, что применили пузырьковую сортировку
                         articles[i] = articles[j];
                         articles[j] = g;
                     }

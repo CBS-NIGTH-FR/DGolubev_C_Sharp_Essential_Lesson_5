@@ -76,7 +76,7 @@ namespace Exercise_2
             {
                 value += item;
             }
-            return value/Number.Length;
+            return value/Number.Length; 
         }
 
         public List<int> OddValues(int[] mass_array)
